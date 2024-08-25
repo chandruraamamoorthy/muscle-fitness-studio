@@ -1,0 +1,307 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Section */
+  #head_container {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  #head_container .h {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #head_container .a1,
+  #head_container .a2 {
+    background-color: #d90d1e;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  #nav_container {
+    background-color: #d90d1e;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  #nav_container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0 25px;
+    display: inline-block;
+    line-height: 30px;
+  }
+  
+  #nav_container a:hover {
+    background-color: #b00e14;
+    border-radius: 5px;
+  }
+  
+  /* Portrait Section */
+  #portrait_container {
+    width: 100%;
+    height: 500px;
+  }
+  
+  #portrait_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Home Section */
+  #home_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home_container_img img {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .home_container_para {
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* About Section */
+  #about_container {
+    display: flex;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .about_container_img img {
+    width: 460px;
+    height: 500px;
+    margin: 0 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .about_container_para {
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* Services Section */
+  #services_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: black;
+    color: white;
+  }
+  
+  #services_container .services_head {
+    width: 20%;
+    align-self: center;
+  }
+  
+  #services_container .services {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 20%;
+    background-size: cover;
+    color: white;
+  }
+  
+  #services_container .services a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #services_container .services a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Blogs Section */
+  #blogs_container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: #d9d9d9;
+  }
+  
+  #blogs_container h2 {
+    color: black;
+  }
+  
+  .blogs {
+    width: 250px;
+    height: 390px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .blogs img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .blogs h3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .blogs p {
+    text-align: justify;
+    padding: 5px;
+  }
+  
+  .blogs a {
+    text-decoration: none;
+    color: #007fbf;
+  }
+  
+  /* Inside Our Gym Section */
+  .inside_our_gym_head {
+    text-align: center;
+    margin: 20px;
+    color: #d90d1e;
+    font-size: 24px;
+  }
+  
+  #inside_our_gym {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .inside_our_gym_img img,
+  .inside_our_gym_img1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  
+  /* Enquiry Section */
+  #enquire_container {
+    background-image: url(../Images/Bg_Nav_Options.jpg);
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  #enquire_container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .form button {
+    background-color: #e3371e;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  /* Location Section */
+  #location_container {
+    background-color: #e3371e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+  }
+  
+  /* Footer Section */
+  #footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+    background-color: #333;
+    color: white;
+  }
+  
+  #footer .footer_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer_items .fi_head {
+    color: #d90d1e;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+  }
+  

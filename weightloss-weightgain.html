@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight Loss Weight Gain</title>
+    <link rel="stylesheet" href="./css/weightloss-weightgain.css" />
+    <style>
+      /* Global styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      #head_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      #head_container .h {
+        text-align: center;
+      }
+
+      #head_container h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+      }
+
+      #head_container a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #d90d1e;
+      }
+
+      #nav_container {
+        padding: 20px;
+        background-color: #d90d1e;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .functional_training_img img {
+        width: 100%;
+        max-height: 450px;
+        object-fit: cover;
+      }
+
+      .functional_training_head h1 {
+        text-align: center;
+        margin: 30px 0;
+        color: #d90d1e;
+      }
+
+      .functional_training_content {
+        padding: 20px;
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+
+      .functional_training_content .para {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      #enquire_container {
+        padding: 30px 20px;
+        background-color: #f9f9f9;
+        margin: 40px auto;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      #enquire_container h2 {
+        margin-bottom: 20px;
+        color: #d90d1e;
+      }
+
+      #enquire_container .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #enquire_container input,
+      #enquire_container textarea {
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      #enquire_container button {
+        padding: 10px 30px;
+        background-color: #d90d1e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      #enquire_container button:hover {
+        background-color: #b00e14;
+      }
+
+      .contact_head {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .contact_head h2 {
+        color: #d90d1e;
+      }
+
+      #location_container {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        margin: 20px auto;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+
+      #location_container h2 {
+        color: #d90d1e;
+      }
+
+      #location_container p {
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .map iframe {
+        width: 100%;
+        height: 450px;
+        margin: 20px 0;
+        border: 0;
+      }
+
+      #footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: #333;
+        color: #fff;
+        padding: 30px 20px;
+      }
+
+      #footer .footer_items {
+        max-width: 300px;
+      }
+
+      #footer h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      #footer h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      #footer p {
+        margin-bottom: 8px;
+        line-height: 1.6;
+      }
+
+      footer {
+        text-align: center;
+        padding: 15px 0;
+        background-color: #222;
+        color: #e0e0e0;
+        font-size: 14px;
+      }
+
+      footer span {
+        color: #e3371e;
+        font-weight: bold;
+      }
+
+      @media (max-width: 768px) {
+        #head_container {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        #footer {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        #footer .footer_items {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="head_container">
+      <a href="#" class="a1">24/7 Active</a>
+      <div class="h">
+        <h1>Mu<span style="color: red">s</span>cle</h1>
+        <span style="font-weight: 100; font-size: 17px"
+          >Lifestyle and Fitness Studio</span
+        >
+      </div>
+      <a href="./join.html" class="a2">Join Now</a>
+    </div>
+
+    <div id="nav_container">
+      <p>What seems impossible today will one day become your warm-up.</p>
+    </div>
+
+    <div class="functional_training_img">
+      <img src="./images/Bg_Image4.jpg" alt="Functional Training" />
+    </div>
+
+    <div class="functional_training_head">
+      <h1>Weight Loss Weight Gain</h1>
+    </div>
+
+    <div class="functional_training_content">
+      <div class="para">
+        <p>
+          Talk to our experts and garner valuable insights on several weight
+          loss and gain programs. Are you looking for a workout plan for a
+          weight loss or weight gain plan? Look no further. Your solution is
+          right here. We feature all the workouts you want at our best gym for
+          weight loss in Chennai. We’ve covered you with our industry trainers
+          and professionals specializing in the field to give you long-lasting
+          results.
+        </p>
+      </div>
+      <div class="para">
+        <p>
+          To reduce or gain weight, attend our functional training programs
+          specially curated for you. It will help to cater to your requirements
+          and deliver consistent results precisely.
+        </p>
+      </div>
+    </div>
+
+    <div id="enquire_container">
+      <h2>For Enquire</h2>
+      <div class="form">
+        <form action="mailto:chandrul@gmail.com">
+          <input type="text" placeholder="Name*" id="enq-name" /> <br />
+          <input type="email" placeholder="Email*" /> <br />
+          <input type="text" placeholder="Mobile Number*" /> <br />
+          <textarea placeholder="Text"></textarea> <br />
+          <button type="submit" value="submit">Enquire</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="contact_head"><h2>Contact Us</h2></div>
+
+    <div id="location_container">
+      <h2>Velachery</h2>
+      <p>
+        A: No. 80, First Floor, 100 ft Road, Velachery, Chennai - 42, Near by
+        Phoenix Mall.
+      </p>
+      <p>P: 04443563377 / 8531015756</p>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31103.091691638554!2d80.19917229616097!3d12.9791130895441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9ff2065a3b%3A0x66435015604038cc!2sVelachery%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703095501502!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="footer">
+      <div class="footer_items">
+        <h1>Mu<span style="color: red">s</span>cle</h1>
+        <p>
+          Muscle is one of the best fitness centers in Chennai. Our customized
+          designs will help you enjoy the best experience of your life.
+        </p>
+      </div>
+
+      <div class="footer_items" style="text-align: center">
+        <h2>For More Info</h2>
+        <p>Mr. U. Alex</p>
+        <p>Ph: 0444-256284</p>
+        <p>Email: alex@muscle.com</p>
+      </div>
+
+      <div class="footer_items" style="text-align: center">
+        <h2>Business Opportunities</h2>
+        <p>Phone: +91 91768 40500</p>
+        <p>Phone: +91 98414 63406</p>
+        <p>Email: ceo@paulsons.in</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        Copyright &copy; 2023 Shiva Fitness Studio. All Rights Reserved.
+        Designed by <span>Sara Tech</span>
+      </div>
+    </footer>
+  </body>
+</html>
